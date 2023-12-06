@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Productivity Extension",
+    "version": "1.0",
+    "description": "Track website usage and improve your study habits.",
+    "permissions": ["activeTab", "tabs", "storage", "background"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
