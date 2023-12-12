@@ -1,11 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Productivity Tracker</title>
-  <script src="popup.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Extension Popup</title>
 </head>
 <body>
-  <h1>Productivity Tracker</h1>
-    <button id="start">Start</button>
-    <button id="stop">Stop</button>
+    <button id="start-button">Start Tracking</button>
+    <button id="stop-button">Stop Tracking</button>
+    
+    
+    <!-- Display real-time tracking data -->
+    <div id="tracking-data"></div>
+
+    <script src="popup.js"></script>
 </body>
 </html>
